@@ -6,12 +6,12 @@ but there is a problem !!! your router disk space is just 8mb so not enough spac
 but Don't Worry i have a solution ... :)
 (How to install Passwall on Openwrt : https://www.youtube.com/watch?v=f4-GUnCK2Wo&t=520s&ab_channel=AmirHosseinChoghaei)
 
-Install Service :
+# Install Service :
 
 1- #vim /etc/init.d/amir
 
 2- paste this script :
-
+```
 #!/bin/sh /etc/rc.common
 
 START=98
@@ -22,6 +22,7 @@ start(){
         sh /root/owo.sh
         
 }
+```
 
 3- Write and Quit ... #wq
 
@@ -34,7 +35,7 @@ start(){
 7- #vim owo.sh
 
 8- Paste this script :
-
+```
    service passwall stop
 
    opkg update
@@ -46,12 +47,21 @@ start(){
    opkg install xray-core_1.7.5-1_mipsel_24kc.ipk -d ram
 
    service passwall restart
+   ```
+
 
 9- Write and Quit... #wq
 
 
 10- chmod 777 owo.sh
 
+11- Login to the Luci Web System>Startup>Enable amir
+
+![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Screenshot-2023-03-10-113014.jpg)
+
+
 Done !
+
+![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg)
 
 >>> when your router rebooted , it's takes about 3 min to start passwall ...
