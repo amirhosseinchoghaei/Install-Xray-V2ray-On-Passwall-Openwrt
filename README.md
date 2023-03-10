@@ -8,7 +8,7 @@ but Don't Worry i have a solution ... :)
 
 Install Service :
 
-1- vim /etc/init.d/amir
+1- #vim /etc/init.d/amir
 
 2- paste this script :
 
@@ -23,13 +23,32 @@ start(){
         
 }
 
-3- Write and Quit ... wq
+3- Write and Quit ... #wq
 
-4- chmod +x /etc/init.d/amir
+4- #chmod +x /etc/init.d/amir
 
-5- /etc/init.d/amir enable
+5- #/etc/init.d/amir enable
+
+6- #cd
+
+7- #vim owo.sh
+
+8- Paste this script :
+
+   service passwall stop
+
+   opkg update
+
+   cd /tmp
+
+   opkg download xray-core
+
+   opkg install xray-core_1.7.5-1_mipsel_24kc.ipk -d ram
+
+   service passwall restart
+
+9- Write and Quit... #wq
 
 
-
-
+10- chmod 777 owo.sh
 
