@@ -1,4 +1,4 @@
-# mi4agigabit
+# mi4agigabit_xray
 install v2ray , xray on mi 4a gigabit openwrt
 
 Hi Guys if you have Mi 4a router and you want run v2ray shadowsocks on your router , First You should install openwrtOS and then install passwall Package 
@@ -55,7 +55,7 @@ start(){
 
 10- chmod 777 owo.sh
 
-11- Login to the Luci Web System>Startup>Enable amir
+11- Login to the Luci Web System>Startup>Enable amir and Press Start
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Screenshot-2023-03-10-113014.jpg)
 
