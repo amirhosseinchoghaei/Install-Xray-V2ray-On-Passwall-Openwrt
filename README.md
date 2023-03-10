@@ -55,7 +55,7 @@ start(){
 
 10- chmod 777 owo.sh
 
-11- Login to the Luci Web System>Startup>Enable amir and Press Start
+11- Login to the Luci Web System>Startup>Enable amir and **Press Start**
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Screenshot-2023-03-10-113014.jpg)
 
