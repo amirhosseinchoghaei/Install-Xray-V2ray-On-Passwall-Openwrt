@@ -59,6 +59,8 @@ start(){
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Screenshot-2023-03-10-113014.jpg)
 
+12- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
+![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
 
 Done !
 
