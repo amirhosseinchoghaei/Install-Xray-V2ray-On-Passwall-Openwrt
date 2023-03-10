@@ -52,3 +52,6 @@ start(){
 
 10- chmod 777 owo.sh
 
+Done !
+
+>>> when your router rebooted , it's takes about 3 min to start passwall ...
