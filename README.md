@@ -41,17 +41,16 @@ start(){
 
 8- Paste this script :
 ```
-   service passwall stop
+service passwall stop
 
-   opkg update
+cd /tmp
 
-   cd /tmp
+wget https://hoverco.net/xray-core_1.8.0-1_mipsel_24kc.ipk
 
-   opkg download xray-core
+opkg install xray-core_1.8.0-1_mipsel_24kc.ipk -d ram
 
-   opkg install xray-core_1.7.5-1_mipsel_24kc.ipk -d ram
+service passwall restart
 
-   service passwall restart
    ```
 
 
