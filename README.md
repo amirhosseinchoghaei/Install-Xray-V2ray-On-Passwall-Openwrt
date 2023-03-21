@@ -67,6 +67,8 @@ service passwall restart
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
 
+13-# service amir restart
+
 Done !
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg)
