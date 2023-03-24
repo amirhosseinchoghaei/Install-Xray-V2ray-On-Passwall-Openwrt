@@ -1,4 +1,7 @@
 # mi4agigabit_xray
+This Script is for all of routers you want istall xray but you dont have enough space ! not just for mi 4a gigabit ...
+
+# requirement : 38MB free "Temp space"
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/mi4.png)
 
