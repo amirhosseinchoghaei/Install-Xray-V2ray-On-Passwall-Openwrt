@@ -1,4 +1,4 @@
-# mi4agigabit_xray
+#install_xray_on_openwrt
 This Script is for all of routers you want istall xray but you dont have enough space ! not just for mi 4a gigabit ...
 
 # requirement : 38MB free "Temp space"
