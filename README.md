@@ -57,7 +57,7 @@ service passwall restart
    ```
 
 
-9- Write and Quit... #wq
+9- Write and Quit... wq
 
 
 10- chmod 777 owo.sh
