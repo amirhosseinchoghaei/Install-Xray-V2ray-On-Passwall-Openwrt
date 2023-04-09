@@ -21,15 +21,14 @@ but Don't Worry i have a solution ... :)
 2- paste this script :
 ```
 #!/bin/sh /etc/rc.common
+START=99
 
-START=98
+ping -c 30 instagram.com
+if [ $? -eq 1 ]; then
+    sh /root/owo.sh
 
-start(){
-        ubus  -t 60 wait_for network.interface network.interface.loopback # Mak>
-        echo "Powered By AmirHossein Choghaei"
-        sh /root/owo.sh
-        
-}
+fi
+
 ```
 
 3- Write and Quit ... wq
