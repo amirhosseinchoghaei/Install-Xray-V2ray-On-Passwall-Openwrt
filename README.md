@@ -3,7 +3,7 @@
 This script is Compatible with other routers : [Support Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
 
 
-# requirement : 38MB free "Temp Space" & 8MB free Disk Space
+# requirement : 38MB free "Temp Space" & 8MB free "Disk Space"
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/mi4.png)
 
