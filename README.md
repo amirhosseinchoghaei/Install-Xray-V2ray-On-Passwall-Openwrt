@@ -1,6 +1,6 @@
 #install_xray_on_openwrt
 
-[Support Device Lists](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
+[Support Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
 
 
 This Script is for all of routers you want istall xray but you dont have enough space ! not just for mi 4a gigabit ...
