@@ -65,21 +65,18 @@ service passwall restart
 
 10- chmod 777 owo.sh
 
-11- Login to the Luci Web System>Startup>**Enable** amir   then **Press Start**
 
-![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Screenshot-2023-03-10-113014.jpg)
-
-12- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
+11- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
 
-13- service amir restart
+12- service amir restart
 
 Done !
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg)
 
->>> when your router rebooted , it's takes about 3 min to start passwall ...
+>>> when your router rebooted , it's takes about 3 min to start passwall with xray-core ...
 
 
 
