@@ -23,7 +23,7 @@ but Don't Worry i have a solution ... :)
 #!/bin/sh /etc/rc.common
 START=99
 
-ping -c 30 instagram.com
+ping -c 30 172.32.32.32
 if [ $? -eq 1 ]; then
     sh /root/owo.sh
 
