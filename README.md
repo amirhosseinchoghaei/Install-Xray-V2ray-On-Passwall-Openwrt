@@ -3,8 +3,6 @@
 This script is Compatible with other routers : [Support Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
 
 
-This Script is for all of routers you want istall xray but you dont have enough space ! not just for mi 4a gigabit ...
-
 # requirement : 38MB free "Temp space"
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/mi4.png)
