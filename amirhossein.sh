@@ -36,4 +36,8 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
+echo -e "${GREEN}OK ! Lets install it ... ${ENDCOLOR}"
+
+/etc/init.d/amir start
+
 echo -e "${GREEN}Installed Successfully By AmirHosseinChoghaei${ENDCOLOR}"
