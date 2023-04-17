@@ -23,14 +23,16 @@ but Don't Worry i have a solution ... :)
 2- paste this script :
 ```
 #!/bin/sh /etc/rc.common
+
 START=99
 
+start(){
 ping -c 30 172.32.32.32
 if [ $? -eq 1 ]; then
     sh /root/owo.sh
 
 fi
-
+}
 ```
 
 3- Write and Quit ... wq
