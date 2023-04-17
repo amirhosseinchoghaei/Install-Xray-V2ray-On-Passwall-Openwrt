@@ -37,5 +37,8 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-echo -e "${GREEN}And this is some green text${ENDCOLOR}"
+echo -e "${GREEN}              __           __   __   __   ___            __        __   __             ___   
+ /\   |\/| | |__)    |__| /  \ /__` /__` |__  | |\ |    /  ` |__| /  \ / _` |__|  /\  |__  | 
+/~~\  |  | | |  \    |  | \__/ .__/ .__/ |___ | | \|    \__, |  | \__/ \__> |  | /~~\ |___ | 
+                                                                                             ${ENDCOLOR}"
 
