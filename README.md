@@ -18,62 +18,15 @@ but Don't Worry i have a solution ... :)
 
 # Install Service :
 
-1- vim /etc/init.d/amir
-
-2- paste this script :
+1-
 ```
-#!/bin/sh /etc/rc.common
-
-START=99
-
-start(){
-echo "Powered By AmirHossein Choghaei"
-ping -c 30 172.32.32.32
-if [ $? -eq 1 ]; then
-    sh /root/owo.sh
-
-fi
-}
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
 
-3- Write and Quit ... wq
 
-4- chmod +x /etc/init.d/amir
-
-5- /etc/init.d/amir enable
-
-6- cd
-
-7- vim owo.sh
-
-8- Paste this script :
-```
-service passwall stop
-
-cd /tmp
-
-wget https://hoverco.net/xray-core_1.8.0-1_mipsel_24kc.ipk
-
-opkg install xray-core_1.8.0-1_mipsel_24kc.ipk -d ram
-
-rm xray-core_1.8.0-1_mipsel_24kc.ipk
-
-service passwall restart
-
-   ```
-
-
-9- Write and Quit... wq
-
-
-10- chmod 777 owo.sh
-
-
-11- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
+2- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
-
-12- service amir restart
 
 Done !
 
