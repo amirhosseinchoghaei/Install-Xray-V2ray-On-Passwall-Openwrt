@@ -22,7 +22,7 @@ clear
 
 echo "Powered By AmirHosseinChoghaei"
 
-cd
+cd /root/
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
