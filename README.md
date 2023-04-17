@@ -5,7 +5,7 @@ This script is Compatible with other routers : [Support Devices List](https://do
 
 # requirement : 38MB free "Temp Space" & 1MB free "Disk Space"
 
-![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/mi4.png)
+
 
 
 install v2ray , xray-core , i'm trying to install on mi 4a gigabit :
