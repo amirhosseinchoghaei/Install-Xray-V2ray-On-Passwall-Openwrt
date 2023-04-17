@@ -37,8 +37,4 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-echo -e "${GREEN}              __           __   __   __   ___            __        __   __             ___   
- /\   |\/| | |__)    |__| /  \ /__` /__` |__  | |\ |    /  ` |__| /  \ / _` |__|  /\  |__  | 
-/~~\  |  | | |  \    |  | \__/ .__/ .__/ |___ | | \|    \__, |  | \__/ \__> |  | /~~\ |___ | 
-                                                                                             ${ENDCOLOR}"
-
+echo -e "${GREEN}Installed Successfully By AmirHosseinChoghaei${ENDCOLOR}"
