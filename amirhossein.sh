@@ -37,4 +37,4 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-echo "installed"
+echo -e "${BLUE}|${YELLOW} OK  :) ${NC} ${CYAN} Installed Successfully !! Made With Love By : AmirHossein Choghaei${NC} 
