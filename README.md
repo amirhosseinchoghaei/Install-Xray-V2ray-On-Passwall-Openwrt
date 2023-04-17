@@ -27,6 +27,7 @@ but Don't Worry i have a solution ... :)
 START=99
 
 start(){
+echo "Powered By AmirHossein Choghaei"
 ping -c 30 172.32.32.32
 if [ $? -eq 1 ]; then
     sh /root/owo.sh
