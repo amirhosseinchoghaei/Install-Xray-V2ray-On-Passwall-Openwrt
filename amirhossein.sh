@@ -37,4 +37,5 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-echo -e "\e[32mRed text\e[0m"
+echo -e "${GREEN}And this is some green text${ENDCOLOR}"
+
