@@ -10,7 +10,7 @@ This script is Compatible with other routers : [Support Devices List](https://do
 
 install v2ray , xray-core , i'm trying to install on mi 4a gigabit :
 
-Hi Guys if you have Mi 4a router and you want run v2ray shadowsocks on your router , First You should install openwrtOS and then install passwall Package 
+Hi Guys if you want to run v2ray shadowsocks on your router , First You should install openwrtOS and then install passwall Package 
 but there is a problem !!! your router disk space is just 8mb so not enough space to install xray ...
 but Don't Worry i have a solution ... :)
 
