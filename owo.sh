@@ -7,4 +7,4 @@ rm xray-core_1.8.0-1_mipsel_24kc.ipk
 service passwall restart
 cd /root/
 
-echo "level one passed !"
+echo "OK !"
