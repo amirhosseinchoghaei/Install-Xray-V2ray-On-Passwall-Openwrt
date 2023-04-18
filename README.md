@@ -1,5 +1,5 @@
 #install_v2ray_xray_on_openwrt
-
+Target Platform	: ramips/mt7621
 This script is Compatible with other routers : [Support Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
 
 
