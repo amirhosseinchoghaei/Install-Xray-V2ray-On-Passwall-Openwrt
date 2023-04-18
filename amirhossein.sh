@@ -40,4 +40,4 @@ echo -e "${GREEN}OK ! Lets install it ... ${ENDCOLOR}"
 
 /etc/init.d/amir start
 
-echo -e "${GREEN}Installed Successfully By AmirHosseinChoghaei${ENDCOLOR}"
+echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
