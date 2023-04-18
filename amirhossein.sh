@@ -20,7 +20,6 @@ echo "Running as root..."
 sleep .5
 clear
 
-echo "Powered By AmirHosseinChoghaei"
 
 cd /root/
 
