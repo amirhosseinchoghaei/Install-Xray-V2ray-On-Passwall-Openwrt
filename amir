@@ -3,7 +3,7 @@
 START=99
 
 start(){
-echo "Powered By AmirHossein Choghaei"
+echo "Running amir Service"
 ping -c 15 127.0.0.1
 
     sh /root/owo.sh
