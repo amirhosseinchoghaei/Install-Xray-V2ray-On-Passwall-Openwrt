@@ -36,7 +36,7 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-echo -e "${GREEN}OK ! Lets install it ... ${ENDCOLOR}"
+echo -e "${GREEN}Starting Service ... ${ENDCOLOR}"
 
 /etc/init.d/amir start
 
