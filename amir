@@ -6,6 +6,8 @@ start(){
 
 echo "Nice !"
 
+ping -c 15 127.0.0.1
+
     sh /root/owo.sh
 
 }
