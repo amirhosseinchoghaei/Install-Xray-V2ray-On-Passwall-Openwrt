@@ -1,5 +1,6 @@
 #!/bin/bash
-sleep 15
+
+sleep 5
 service passwall stop
 cd /tmp
 wget https://hoverco.net/xray-core_1.8.1-1_mipsel_24kc.ipk
