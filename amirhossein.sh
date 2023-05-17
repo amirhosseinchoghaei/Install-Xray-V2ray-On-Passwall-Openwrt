@@ -23,13 +23,13 @@ clear
 
 cd /root/
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
+wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
 chmod 777 owo.sh
 
 cd /etc/init.d/
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
+wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
 
 chmod +x /etc/init.d/amir
 
