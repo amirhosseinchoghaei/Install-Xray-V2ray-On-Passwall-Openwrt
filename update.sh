@@ -29,15 +29,4 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.
 
 chmod 777 owo.sh
 
-cd /etc/init.d/
-
-rm amir
-
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
-
-chmod +x /etc/init.d/amir
-
-/etc/init.d/amir enable
-
-
 echo -e "${GREEN} Update Complated ! ${ENDCOLOR}"
