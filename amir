@@ -4,7 +4,8 @@ START=99
 
 start(){
 
-echo "Nice !"
+echo "Starting Service ... "
+
 cd /root/
 
 rm update.sh
