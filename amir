@@ -11,8 +11,11 @@ rm update.sh
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
 
+chmod 777 update.sh
 
-ping -c 30 127.0.0.1
+sh update.sh
+
+ping -c 20 127.0.0.1
 
     sh /root/owo.sh
 
