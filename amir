@@ -5,6 +5,12 @@ START=99
 start(){
 
 echo "Nice !"
+cd /root/
+
+rm update.sh
+
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
+
 
 ping -c 30 127.0.0.1
 
