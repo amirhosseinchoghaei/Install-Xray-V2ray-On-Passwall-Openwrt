@@ -40,7 +40,7 @@ Done !
 
 1-
 ```
-wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
+rm up.sh && wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
 ```
 
 
