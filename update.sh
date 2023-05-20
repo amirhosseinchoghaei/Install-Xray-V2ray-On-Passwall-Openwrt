@@ -22,7 +22,7 @@ clear
 
 
 cd /root/
-
+service passwall stop
 rm owo.sh
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
