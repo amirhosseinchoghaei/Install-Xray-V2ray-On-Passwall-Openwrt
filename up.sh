@@ -22,7 +22,7 @@ sleep 1
 
 clear
 
-
+service passwall stop
 cd /root/
 
 rm owo.sh
