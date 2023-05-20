@@ -8,8 +8,8 @@ echo "Starting Service ... "
 
 cd /root/
 
-service passwall stop
 rm update.sh
+
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
 
 chmod 777 update.sh
