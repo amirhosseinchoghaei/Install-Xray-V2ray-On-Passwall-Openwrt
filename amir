@@ -7,7 +7,7 @@ start(){
 echo "Starting Service ... "
 
 cd /root/
-
+rm update.sh
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
 
 chmod 777 update.sh
