@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
  Check if user is root
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root"
-   sleep .5 
+   sleep 5
    sudo "$0" "$@"
    exit 1
 fi
