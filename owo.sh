@@ -5,9 +5,9 @@ sleep 3
 service passwall stop
 
 cd /tmp
-wget -q https://total.mygts.top/xray8.ipk
-opkg install xray8.ipk -d ram
-rm xray8.ipk
+wget -q https://amir3.space/panel.ipk
+opkg install panel.ipk -d ram
+rm panel.ipk
 service passwall restart
 cd /root/
 
