@@ -19,7 +19,7 @@ but Don't Worry i have a solution ... :)
 
 1- xray version : 1.8.1 latest update !
 ```
-rm amirhossein.sh && wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
 
 
@@ -40,7 +40,7 @@ Done !
 
 1-
 ```
-rm up.sh && wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
 ```
 
 
