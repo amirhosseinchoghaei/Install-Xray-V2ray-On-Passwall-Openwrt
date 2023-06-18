@@ -10,7 +10,7 @@ rm owo.sh
 
 rm up.sh
 
-amirhossein.sh
+rm amirhossein.sh
 
 rm /etc/init.d/amir
 
