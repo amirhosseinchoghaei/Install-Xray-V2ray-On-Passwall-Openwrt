@@ -24,11 +24,11 @@ clear
 cd /root/
 
 
-if [[ -f $owo ]] 
+if [[ -f owo.sh ]]
 
 then 
 
-  echo "The file $owo exists. removing ..." && rm owo.sh
+  rm owo.sh
 
 else 
 
@@ -42,11 +42,11 @@ chmod 777 owo.sh
 
 
 
-if [[ -f $up ]] 
+if [[ -f up.sh ]] 
 
 then 
 
-  echo "The file $up exists. removing ..." && rm up.sh
+  rm up.sh
 
 else 
 
@@ -63,11 +63,11 @@ chmod 777 up.sh
 cd /etc/init.d/
 
 
-if [[ -f $amir ]] 
+if [[ -f amir ]] 
 
 then 
 
-  echo "The file $amir exists. removing ..." && rm amir
+  rm amir
 
 else 
 
