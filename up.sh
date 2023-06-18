@@ -26,6 +26,7 @@ service passwall stop
 cd /root/
 
 rm owo.sh
+
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
 chmod 777 owo.sh
@@ -33,6 +34,7 @@ chmod 777 owo.sh
 cd /etc/init.d/
 
 rm amir
+
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
 
 chmod +x /etc/init.d/amir
@@ -41,11 +43,7 @@ chmod +x /etc/init.d/amir
 
 cd /root/
 
-rm update.sh
-wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/update.sh
 
-chmod 777 update.sh
-
-/etc/init.d/passwall start
+/etc/init.d/amir start
 
 echo -e "${GREEN} Update Complated ! ${ENDCOLOR}"
