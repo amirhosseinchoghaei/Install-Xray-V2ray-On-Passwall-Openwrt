@@ -40,7 +40,7 @@ Done !
 
 1-
 ```
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
+/etc/init.d/passwall stop && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
 ```
 
 
