@@ -42,5 +42,8 @@ Done !
 ```
 sh /root/up.sh
 ```
-
+- or
+```
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
+```
 
