@@ -46,4 +46,6 @@ wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/u
 
 chmod 777 update.sh
 
+/etc/init.d/passwall start
+
 echo -e "${GREEN} Update Complated ! ${ENDCOLOR}"
