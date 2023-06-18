@@ -23,17 +23,21 @@ clear
 
 cd /root/
 
-wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
 chmod 777 owo.sh
 
 cd /etc/init.d/
 
-wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
 
 chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
+
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
+
+chmod 777 up.sh
 
 echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 
