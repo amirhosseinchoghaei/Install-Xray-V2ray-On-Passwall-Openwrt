@@ -23,15 +23,58 @@ clear
 
 cd /root/
 
+
+if [[ -f $owo ]] 
+
+then 
+
+  echo "The file $owo exists. removing ..." && rm owo.sh
+
+else 
+
+  echo "Stage 1 Passed" 
+
+fi
+
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.sh
 
 chmod 777 owo.sh
+
+
+
+if [[ -f $up ]] 
+
+then 
+
+  echo "The file $up exists. removing ..." && rm up.sh
+
+else 
+
+  echo "Stage 2 Passed" 
+
+fi
+
+
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
 
 chmod 777 up.sh
 
 cd /etc/init.d/
+
+
+if [[ -f $amir ]] 
+
+then 
+
+  echo "The file $amir exists. removing ..." && rm amir
+
+else 
+
+  echo "Stage 3 Passed" 
+
+fi
+
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
 
