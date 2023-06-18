@@ -89,3 +89,5 @@ echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 /etc/init.d/amir start
 
 echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
+
+sleep 5
