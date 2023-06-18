@@ -6,6 +6,8 @@ start(){
 
 echo "Starting Service ... "
 
+/etc/init.d/passwall stop
+
 ping -c 20 127.0.0.1
 
     sh /root/owo.sh
