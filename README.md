@@ -55,5 +55,5 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.s
 # Uninstall :
 
 ```
-wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/unis.sh && chmod 777 unis.sh && sh unis.sh
+wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/unis.sh && chmod 777 unis.sh && sh unis.sh
 ```
