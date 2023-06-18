@@ -27,6 +27,10 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.
 
 chmod 777 owo.sh
 
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
+
+chmod 777 up.sh
+
 cd /etc/init.d/
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
@@ -35,9 +39,7 @@ chmod +x /etc/init.d/amir
 
 /etc/init.d/amir enable
 
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh
-
-chmod 777 up.sh
+cd /root/
 
 echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 
