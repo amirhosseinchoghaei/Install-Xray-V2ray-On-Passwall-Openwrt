@@ -38,6 +38,7 @@ Done !
 
 # Update :
 
+if you have any problem , insert this update line
 1-
 ```
 sh /root/up.sh
