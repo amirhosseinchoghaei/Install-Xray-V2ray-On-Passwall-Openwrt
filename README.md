@@ -52,7 +52,7 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.s
 ```
 
 
-# Unistall :
+# Uninstall :
 
 ```
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/unis.sh && chmod 777 up.sh && sh unis.sh
