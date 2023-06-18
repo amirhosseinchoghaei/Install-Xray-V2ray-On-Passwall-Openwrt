@@ -17,7 +17,7 @@ fi
 
 
 echo "Running as root..."
-sleep .5
+sleep 2
 clear
 
 
