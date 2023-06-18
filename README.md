@@ -51,3 +51,9 @@ sh /root/up.sh
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
 ```
 
+
+# Unistall :
+
+```
+wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/unis.sh && chmod 777 up.sh && sh unis.sh
+```
