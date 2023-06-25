@@ -17,7 +17,7 @@ but Don't Worry i have a solution ... :)
 
 # Install Service :
 
-1- xray version : 1.8.1 latest update !
+1- xray version : 1.8.3 latest update !
 ```
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
