@@ -85,3 +85,5 @@ echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
 sleep 5
+
+rm amirhossein.sh
