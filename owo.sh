@@ -12,7 +12,7 @@ then
 
 else 
 
-  echo "Stage 1 Passed" 
+  echo "Stage 2 Passed" 
 
 fi
 
