@@ -16,7 +16,8 @@ rm /etc/init.d/amir
 
 cd /root/
 
-
 echo "Done !"
 
 sleep 5
+
+rm unis.sh
