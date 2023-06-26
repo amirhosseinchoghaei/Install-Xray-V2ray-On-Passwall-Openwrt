@@ -41,20 +41,10 @@ Done !
 ```
 sh /root/up.sh
 ```
-- or
-```
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.sh && chmod 777 up.sh && sh up.sh
-```
 
 
 # Uninstall :
 
 ```
 wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/unis.sh && chmod 777 unis.sh && sh unis.sh
-```
-
-- or :
-
-```
-sh unis.sh
 ```
