@@ -21,11 +21,6 @@ but Don't Worry i have a solution ... :)
 ```
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
-- or
-```
-rm amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
-```
-
 
 2- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
 
