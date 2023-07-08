@@ -86,4 +86,8 @@ echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
 sleep 5
 
+sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
+
+sleep 2
+
 rm amirhossein.sh
