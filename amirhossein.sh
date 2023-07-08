@@ -80,9 +80,10 @@ cd /root/
 
 echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 
+sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
+
 /etc/init.d/amir start
 
-sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
 
 echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
