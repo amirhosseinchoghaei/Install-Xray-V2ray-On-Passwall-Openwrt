@@ -22,11 +22,11 @@ but Don't Worry i have a solution ... :)
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
 
-2- Go to Passwall > AppUpdate Change Xray App Path to : /tmp/usr/bin/xray 
+Done !
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
 
-Done !
+
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg)
 
