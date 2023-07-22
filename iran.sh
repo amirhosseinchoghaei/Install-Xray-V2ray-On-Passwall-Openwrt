@@ -19,35 +19,44 @@ cd /usr/share/passwall/rules/
 
 if [[ -f direct_ip ]]
 
-then 
+then
 
   rm direct_ip
 
-else 
+else
 
-  echo "Stage 1 Passed" 
+  echo "Stage 1 Passed"
 fi
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_ip
 
-sleep 7
+sleep 3
 
-if [[ -f direct_host ]] 
+if [[ -f direct_host ]]
 
-then 
+then
 
   rm direct_host
 
-else 
+else
 
-  echo "Stage 2 Passed" 
+  echo "Stage 2 Passed"
 
 fi
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_host
 
-cd
+RESULT=`ls direct_ip`
+            if [ "$RESULT" == "direct_ip" ]; then
+            echo -e "${GREEN}IRAN IP BYPASS Successfull !${NC}"
 
-echo "IRAN IP BYPASS Successfull !"
+ else
+
+            echo -e "${RED}INTERNET CONNECTION ERROR!! Try Again ${NC}"
+
+
+
+fi
+
 
 sleep 5
