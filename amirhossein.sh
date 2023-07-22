@@ -14,6 +14,58 @@ echo "Running as root..."
 sleep 2
 clear
 
+## IRAN IP BYPASS ##
+
+cd /usr/share/passwall/rules/
+
+if [[ -f direct_ip ]]
+
+then
+
+  rm direct_ip
+
+else
+
+  echo "Stage 1 Passed"
+fi
+
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_ip
+
+sleep 3
+
+if [[ -f direct_host ]]
+
+then
+
+  rm direct_host
+
+else
+
+  echo "Stage 2 Passed"
+
+fi
+
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_host
+
+RESULT=`ls direct_ip`
+            if [ "$RESULT" == "direct_ip" ]; then
+            echo -e "${GREEN}IRAN IP BYPASS Successfull !${NC}"
+
+ else
+
+            echo -e "${RED}INTERNET CONNECTION ERROR!! Try Again ${NC}"
+
+
+
+fi
+
+sleep 5
+
+
+
+## Service INSTALL ##
+
+
 
 cd /root/
 
