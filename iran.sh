@@ -30,7 +30,7 @@ fi
 
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/iran-iplist/main/direct_ip
 
-sleep 3
+sleep 7
 
 if [[ -f direct_host ]] 
 
