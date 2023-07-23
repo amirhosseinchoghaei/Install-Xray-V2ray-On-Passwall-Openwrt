@@ -43,7 +43,7 @@ else
   
 fi
 
-echo "INSTALLING XRAY ..."
+echo -e "${MAGENTA} INSTALLING XRAY ... ${ENDCOLOR}"
 opkg install panel.ipk -d ram
 
 
