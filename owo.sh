@@ -39,7 +39,8 @@ then
 else 
 
   echo -e "${RED} ERROR : Download Unsuccessful Check Internet Connection ${ENDCOLOR}"
-
+  exit 1
+  
 fi
 
 echo "INSTALLING XRAY ..."
