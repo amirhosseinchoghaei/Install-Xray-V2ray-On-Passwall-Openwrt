@@ -19,9 +19,6 @@ clear
 cd /usr/share/passwall/rules/
 
 
->direct_ip
-
->direct_host
 
 if [[ -f direct_ip ]]
 
@@ -137,7 +134,26 @@ cd /root/
 
 echo -e "${GREEN} Finished ... ${ENDCOLOR}"
 
-sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
+
+##Config
+
+RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
+            if [ "$RESULT" == "/tmp/usr/bin/xray" ]; then
+            echo -e "${GREEN}Cool !${NC}"
+
+ else
+
+            echo -e "${RED}Replacing${NC}"
+            sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
+
+
+fi
+
+
+
+
+
+##EndConfig
 
 /etc/init.d/amir start
 
@@ -146,4 +162,14 @@ echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
 sleep 5
 
+
+>/etc/banner
+
+echo "    ___    __  ___________  __  ______  __________ ___________   __
+   /   |  /  |/  /  _/ __ \/ / / / __ \/ ___/ ___// ____/  _/ | / /
+  / /| | / /|_/ // // /_/ / /_/ / / / /\__ \\__ \/ __/  / //  |/ /
+ / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
+/_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                " >> /etc/banner
+
 rm amirhossein.sh
+
