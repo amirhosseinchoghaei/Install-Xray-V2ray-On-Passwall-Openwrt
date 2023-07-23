@@ -18,6 +18,11 @@ clear
 
 cd /usr/share/passwall/rules/
 
+
+>direct_ip
+
+>direct_host
+
 if [[ -f direct_ip ]]
 
 then
