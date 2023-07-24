@@ -2,7 +2,7 @@
 Target Platform	: ramips/mt7621 : [Supported Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
 
 
-# requirement : 38MB free "Temp Space" & 1MB free "Disk Space"
+# requirement : 38MB free "Temp Space"
 
 
 
