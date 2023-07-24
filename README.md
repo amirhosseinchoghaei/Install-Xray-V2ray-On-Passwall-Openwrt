@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amir
 
 Done !
 
-**Automatic Xray Update After each reboot :) **
+- *Automatic Xray Update After each reboot*
 
 
 ![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
