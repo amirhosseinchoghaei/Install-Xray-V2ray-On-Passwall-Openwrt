@@ -14,7 +14,7 @@ but Don't Worry i have a solution ... :)
 
 (How to install Passwall on Openwrt : https://www.youtube.com/watch?v=f4-GUnCK2Wo&t=520s&ab_channel=AmirHosseinChoghaei)
 
-# Install Xray in one Step + IRAN Traffic BYPASS:
+# Install Xray in one Step + IRAN TRAFFIC BYPASS:
 
 1- xray version : 1.8.3 latest update !
 ```
