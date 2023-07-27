@@ -1,5 +1,7 @@
 #install_v2ray_xray_on_openwrt
 Target Platform	: ramips/mt7621 : [Supported Devices List](https://downloads.openwrt.org/releases/22.03.3/targets/ramips/mt7621/)
+
+
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL)
 
 # requirement : 38MB free "Temp Space"
