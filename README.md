@@ -3,7 +3,7 @@ Target Platform	: ramips/mt7621 : [Supported Devices List](https://downloads.ope
 
 
 # requirement : 38MB free "Temp Space"
-
+# Warning : Not compatible with version 22.03.5 ! Try 22.03.4 or less
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL)
 
 install v2ray , xray-core , i'm trying to install on mi 4a gigabit :
