@@ -14,6 +14,51 @@ echo "Running as root..."
 sleep 2
 clear
 
+##Scanning
+
+. /etc/openwrt_release
+echo "Version: $DISTRIB_RELEASE"
+
+RESULT=`echo $DISTRIB_RELEASE`
+            if [ "$RESULT" == "22.03.5" ]; then
+
+
+            echo -e "${RED} OOPS! Your Openwrt Version is Not compatible ! Try 22.03.4 or less ... ${RED}"
+            exit 1
+            
+ else
+
+            echo -e "${GREEN} Version : OK ${GREEN}"
+
+
+fi
+
+sleep 1
+
+. /etc/openwrt_release
+echo "َArchitecture: $DISTRIB_ARCH"
+
+RESULT=`echo $DISTRIB_ARCH`
+            if [ "$RESULT" == "mipsel_24kc" ]; then
+
+
+            echo -e "${GREEN} Architecture : OK ${GREEN}"
+            
+ else
+
+            echo -e "${RED} OOPS ! Your Architecture is Not compatible ${RED}"
+            exit 1
+
+
+fi
+
+
+
+
+
+
+
+
 ## IRAN IP BYPASS ##
 
 cd /usr/share/passwall/rules/
@@ -143,7 +188,7 @@ RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
 
  else
 
-            echo -e "${RED}Replacing${NC}"
+            echo -e "${YELLOW}Replacing${YELLOW}"
             sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
 
 
