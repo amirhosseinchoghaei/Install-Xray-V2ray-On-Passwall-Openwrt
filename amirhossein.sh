@@ -278,6 +278,7 @@ else
 
 fi
 
+cd
 
 rm amirhossein.sh
 
