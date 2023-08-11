@@ -247,5 +247,37 @@ echo "*/3 * * * * /root/timer.sh" >> /var/spool/cron/crontabs/root
 
 /etc/init.d/cron restart
 
+##checkup
+
+cd
+
+if [[ -f owo.sh ]]
+
+then 
+
+  echo -e "${GREEN}OK !${NC}"
+
+else 
+
+  echo -e "${RED}Something Went Wrong Try again ... ${NC}" 
+
+fi
+
+cd /etc/init.d/
+
+
+if [[ -f amir ]] 
+
+then 
+
+  echo -e "${GREEN}OK !${NC}"
+
+else 
+
+  echo -e "${RED}Something Went Wrong Try again ... ${NC}" 
+
+fi
+
+
 rm amirhossein.sh
 
