@@ -229,10 +229,6 @@ fi
 /etc/init.d/amir start
 
 
-echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
-
-sleep 5
-
 
 >/etc/banner
 
@@ -279,6 +275,11 @@ else
 fi
 
 cd
+
+echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
+
+sleep 5
+
 
 rm amirhossein.sh
 
