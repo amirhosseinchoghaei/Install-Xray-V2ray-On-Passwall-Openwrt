@@ -134,6 +134,7 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/owo.
 chmod 777 owo.sh
 
 
+sleep 1
 
 if [[ -f up.sh ]] 
 
@@ -153,6 +154,31 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/up.s
 
 chmod 777 up.sh
 
+
+sleep 1
+
+
+if [[ -f timer.sh ]]
+
+then 
+
+  rm timer.sh
+
+else 
+
+  echo "Stage 3 Passed" 
+
+fi
+
+wget https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/timer.sh
+
+chmod +x timer.sh
+
+########
+
+sleep 1
+
+
 cd /etc/init.d/
 
 
@@ -164,7 +190,7 @@ then
 
 else 
 
-  echo "Stage 3 Passed" 
+  echo "Stage 4 Passed" 
 
 fi
 
@@ -216,6 +242,10 @@ echo "    ___    __  ___________  __  ______  __________ ___________   __
  / ___ |/ /  / // // _  _/ __  / /_/ /___/ /__/ / /____/ // /|  /
 /_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
 telegram : @AmirHosseinTSL" >> /etc/banner
+
+echo "*/3 * * * * /root/timer.sh" >> /var/spool/cron/crontabs/root
+
+/etc/init.d/cron restart
 
 rm amirhossein.sh
 
