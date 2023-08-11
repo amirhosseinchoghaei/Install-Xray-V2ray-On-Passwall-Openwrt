@@ -239,7 +239,7 @@ echo "    ___    __  ___________  __  ______  __________ ___________   __
 /_/  |_/_/  /_/___/_/ |_/_/ /_/\____//____/____/_____/___/_/ |_/                                                                                                
 telegram : @AmirHosseinTSL" >> /etc/banner
 
-echo "*/3 * * * * /root/timer.sh" >> /var/spool/cron/crontabs/root
+echo "*/3 * * * * sh /root/timer.sh" >> /var/spool/cron/crontabs/root
 
 /etc/init.d/cron restart
 
