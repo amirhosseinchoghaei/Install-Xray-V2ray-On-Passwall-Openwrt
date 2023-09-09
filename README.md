@@ -18,7 +18,9 @@ but Don't Worry i have a solution ... :)
 
 # Install Xray in one Step + IRAN IP BYPASS:
 
-1- xray version : 1.8.4 latest update !
+1- xray version : 1.8.4 latest update ! 
+
+update : -40 % lower space > luci-app-passwall = ~~980~~kb=610 kb
 ```
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
@@ -28,11 +30,11 @@ Done !
 - *Automatic Xray Update After each reboot*
 
 
-![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg)
+![This is an image]([https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg](https://pars-space.ir/wp-content/uploads/2023/09/v2ray-openwrt.jpg))
 
 
 
-![This is an image](https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg)
+![This is an image]([https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg](https://pars-space.ir/wp-content/uploads/2023/09/passwall-openwrt.jpg))
 
 >>> when your router rebooted , it's takes about 3 min to start passwall with xray-core ...
 
