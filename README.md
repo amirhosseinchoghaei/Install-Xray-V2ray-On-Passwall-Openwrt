@@ -20,7 +20,7 @@ but Don't Worry i have a solution ... :)
 
 1- xray version : 1.8.4 latest update ! 
 
-✅ update : -40 % lower space > luci-app-passwall = ~~980~~kb=610 kb
+✅ improved : -40 % lower size > luci-app-passwall = ~~980~~kb=610 kb
 ```
 wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
