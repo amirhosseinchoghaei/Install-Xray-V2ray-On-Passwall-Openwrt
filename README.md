@@ -30,11 +30,11 @@ Done !
 - *Automatic Xray Update After each reboot*
 
 
-![This is an image]([https://pars-space.ir/wp-content/uploads/2023/03/Sp.jpg](https://pars-space.ir/wp-content/uploads/2023/09/v2ray-openwrt.jpg))
+![This is an image](https://pars-space.ir/wp-content/uploads/2023/09/v2ray-openwrt.jpg)
 
 
 
-![This is an image]([https://pars-space.ir/wp-content/uploads/2023/03/Passwall.jpg](https://pars-space.ir/wp-content/uploads/2023/09/passwall-openwrt.jpg))
+![This is an image](https://pars-space.ir/wp-content/uploads/2023/09/passwall-openwrt-1.jpg)
 
 >>> when your router rebooted , it's takes about 3 min to start passwall with xray-core ...
 
