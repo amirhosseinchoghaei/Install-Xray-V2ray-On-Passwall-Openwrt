@@ -260,6 +260,13 @@ echo "*/3 * * * * sh /root/timer.sh" >> /var/spool/cron/crontabs/root
 
 cd
 
+uci set system.@system[0].hostname=By-AmirHossein
+
+uci commit system
+
+/sbin/reload_config
+
+
 if [[ -f owo.sh ]]
 
 then 
