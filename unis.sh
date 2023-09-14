@@ -16,6 +16,8 @@ rm amirhossein.sh
 
 rm /etc/init.d/amir
 
+rm /sbin/amir
+
 cd /root/
 
 echo "Done !"
