@@ -174,6 +174,18 @@ wget https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On
 
 chmod +x timer.sh
 
+cd
+
+cd /sbin/
+
+https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray-On-Passwall-Openwrt/main/amir2
+
+chmod 777 amir2
+
+mv amir2 amir
+
+cd
+
 ########
 
 sleep 1
