@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -295,6 +295,10 @@ else
 fi
 
 cd
+
+cp owo.sh /sbin/
+
+mv /sbin/owo.sh /sbin/amir
 
 echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
