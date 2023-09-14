@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 RESULT=`ls /tmp/usr/bin/xray`
             if [ "$RESULT" == "/tmp/usr/bin/xray" ]; then
