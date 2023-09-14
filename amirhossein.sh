@@ -308,10 +308,6 @@ fi
 
 cd
 
-cp owo.sh /sbin/
-
-mv /sbin/owo.sh /sbin/amir
-
 echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
 
 sleep 3
