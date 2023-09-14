@@ -6,7 +6,6 @@ Target Platform	: ramips/mt7621 : [Supported Devices List](https://downloads.ope
 # Warning : Not compatible with 22.03.5 ! Try [22.03.4](https://downloads.openwrt.org/releases/22.03.4/targets/ramips/mt7621/) or less
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-<p align="left"> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a>  <a href="https://nativescript.org/" target="_blank" rel="noreferrer">  <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/nativescript.svg" alt="nativescript" width="40" height="40"/> </a> </p>
 
 install v2ray , xray-core , i'm trying to install on mi 4a gigabit :
 
@@ -44,7 +43,7 @@ Done !
 # Update :
 
 ```
-sh /root/up.sh
+amir reload
 ```
 
 
