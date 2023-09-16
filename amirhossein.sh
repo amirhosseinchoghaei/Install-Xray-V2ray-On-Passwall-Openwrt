@@ -23,15 +23,15 @@ RESULT=`echo $DISTRIB_RELEASE`
             if [ "$RESULT" == "22.03.5" ]; then
 
 
-            echo -e "${YELLOW} Maybe You get some Erros ! Try 22.03.4 or less ... ${YELLOW}"
+            echo -e "${YELLOW} Maybe You get Some Errors on 22.03.5 ! Try 22.03.4 or less ... ${YELLOW}"
 
-            
+            echo -e "${NC}  ${NC}"
             
  else
 
             echo -e "${GREEN} Version : OK ${GREEN}"
 
-
+            echo -e "${NC}  ${NC}"
 fi
 
 sleep 1
@@ -53,10 +53,28 @@ RESULT=`echo $DISTRIB_ARCH`
 
 fi
 
+sleep 1
+
+### Passwall Check
 
 
+RESULT=`ls /etc/init.d/passwall`
+            if [ "$RESULT" == "/etc/init.d/passwall" ]; then
 
 
+            echo -e "${GREEN} Passwall : OK ${GREEN}"
+            echo -e "${NC}  ${NC}"
+ else
+
+            echo -e "${RED} OOPS ! First Install Passwall on your Openwrt . ${RED}"
+            echo -e "${NC}  ${NC}"
+            exit 1
+
+
+fi
+
+
+#############
 
 
 
