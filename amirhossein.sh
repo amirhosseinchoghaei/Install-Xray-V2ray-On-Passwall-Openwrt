@@ -39,19 +39,19 @@ sleep 1
 . /etc/openwrt_release
 echo "َArchitecture: $DISTRIB_ARCH"
 
-#RESULT=`echo $DISTRIB_ARCH`
-  #          if [ "$RESULT" == "mipsel_24kc" ]; then
+RESULT=`echo $DISTRIB_ARCH`
+            if [ "$RESULT" == "mipsel_24kc" ]; then
 
 
-  #          echo -e "${GREEN} Architecture : OK ${GREEN}"
+            echo -e "${GREEN} Architecture : OK ${GREEN}"
             
-# else
+ else
 
-    #        echo -e "${RED} OOPS ! Your Architecture is Not compatible ${RED}"
-  #          exit 1
+            echo -e "${RED} OOPS ! Your Architecture is Not compatible ${RED}"
+            exit 1
 
 
-#fi
+fi
 
 sleep 1
 
