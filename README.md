@@ -3,7 +3,7 @@ Architecture : mipsel_24kc
 
 
 # requirement : 38MB free "Temp Space"
-# Warning : Not compatible with 22.03.5 ! Try [22.03.4](https://downloads.openwrt.org/releases/22.03.4/targets/ramips/mt7621/) or less
+
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
