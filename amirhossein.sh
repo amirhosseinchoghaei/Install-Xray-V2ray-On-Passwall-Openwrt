@@ -23,8 +23,9 @@ RESULT=`echo $DISTRIB_RELEASE`
             if [ "$RESULT" == "22.03.5" ]; then
 
 
-            echo -e "${RED} OOPS! Your Openwrt Version is Not compatible ! Try 22.03.4 or less ... ${RED}"
-            exit 1
+            echo -e "${YELLOW} Maybe You get some Erros ! Try 22.03.4 or less ... ${YELLOW}"
+
+            
             
  else
 
