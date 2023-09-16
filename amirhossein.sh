@@ -24,7 +24,7 @@ RESULT=`echo $DISTRIB_RELEASE`
 
 
             echo -e "${RED} OOPS! Your Openwrt Version is Not compatible ! Try 22.03.4 or less ... ${RED}"
-            exit 1
+           # exit 1
             
  else
 
