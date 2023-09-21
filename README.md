@@ -56,6 +56,6 @@ rm -f unis.sh && wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/I
 
 
 
-# 🔥 New Update : You can install Passwall + Xray in One step Full Automatic: https://github.com/amirhosseinchoghaei/Passwall 
+# 🔥 New Update : You Can install Passwall + Xray in One Step Full Automatic: https://github.com/amirhosseinchoghaei/Passwall 
 
 
