@@ -56,6 +56,6 @@ wget -q https://raw.githubusercontent.com/amirhosseinchoghaei/Install-Xray-V2ray
 
 
 
-# 🔥 New Update : You can install Passwall + Xray in One step : https://github.com/amirhosseinchoghaei/Passwall 
+# 🔥 New Update : You can install Passwall + Xray in One step Full Automatic: https://github.com/amirhosseinchoghaei/Passwall 
 
 
