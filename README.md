@@ -21,7 +21,7 @@ but Don't Worry i have a solution ... :)
 
 ✅ improved : -40 % lower size > luci-app-passwall = ~~980~~kb=610 kb
 ```
-wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
+rm -f amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
 
 Done !
