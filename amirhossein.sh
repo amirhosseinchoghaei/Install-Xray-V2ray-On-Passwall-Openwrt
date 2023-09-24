@@ -89,7 +89,7 @@ if [ "$a" -gt "$b" ]; then
 
 else
 
-echo -e "${YELLOW} Not Enough Temp Space ! NEED 38MB TEMP SPACE${YELLOW}"
+echo -e "${YELLOW} Not Enough Temp Space ! NEED 38MB TEMP SPACE ${YELLOW}"
 exit 1
 
 fi
@@ -164,7 +164,7 @@ then
 
 else 
 
-  echo "Stage 1 Passed" 
+  echo "Stage 3 Passed" 
 
 fi
 
@@ -183,7 +183,7 @@ then
 
 else 
 
-  echo "Stage 2 Passed" 
+  echo "Stage 4 Passed" 
 
 fi
 
@@ -205,7 +205,7 @@ then
 
 else 
 
-  echo "Stage 3 Passed" 
+  echo "Stage 5 Passed" 
 
 fi
 
@@ -225,7 +225,7 @@ then
 
 else 
 
-  echo "Stage 4 Passed" 
+  echo "Stage 6 Passed" 
 
 fi
 
@@ -253,7 +253,7 @@ then
 
 else 
 
-  echo "Stage 4 Passed" 
+  echo "Stage 7 Passed" 
 
 fi
 
@@ -266,7 +266,7 @@ chmod +x /etc/init.d/amir
 
 cd /root/
 
-echo -e "${GREEN} Finished ... ${ENDCOLOR}"
+echo -e "${GREEN} almost done ... ${ENDCOLOR}"
 
 
 ##Config
