@@ -89,7 +89,7 @@ if [ "$a" -gt "$b" ]; then
 
 else
 
-echo -e "${YELLOW} Not Enough Temp Space ! ${YELLOW}"
+echo -e "${YELLOW} Not Enough Temp Space ! NEED 38MB TEMP SPACE${YELLOW}"
 exit 1
 
 fi
