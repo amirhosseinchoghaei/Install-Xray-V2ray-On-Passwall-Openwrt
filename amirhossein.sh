@@ -77,6 +77,32 @@ fi
 #############
 
 
+######## Temp Space Check
+
+a=`cd /tmp && du  -m -d 0 | grep -Eo '[0-9]{1,9}'`
+b=38
+if [ "$a" -gt "$b" ]; then
+
+ echo -e "${GREEN} Temp Space : OK ${GREEN}"
+ echo -e "${NC}  ${NC}"
+    
+
+else
+
+echo -e "${YELLOW} Not Enough Temp Space ! ${YELLOW}"
+exit 1
+
+fi
+
+#####################
+
+
+
+
+
+
+
+
 
 ## IRAN IP BYPASS ##
 
