@@ -98,12 +98,6 @@ fi
 
 
 
-
-
-
-
-
-
 ## IRAN IP BYPASS ##
 
 cd /usr/share/passwall/rules/
