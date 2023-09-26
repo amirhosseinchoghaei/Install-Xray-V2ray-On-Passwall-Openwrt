@@ -318,8 +318,15 @@ sleep 1
 
 >/var/spool/cron/crontabs/root
 echo "*/3 * * * * sh /root/timer.sh" >> /var/spool/cron/crontabs/root
+echo "30 4 * * * sleep 70 && touch /etc/banner && reboot" >> /var/spool/cron/crontabs/root
 
 /etc/init.d/cron restart
+
+uci set system.@system[0].zonename='Asia/Tehran'
+
+uci set system.@system[0].timezone='<+0330>-3:30'
+
+uci commit system
 
 ##checkup
 
