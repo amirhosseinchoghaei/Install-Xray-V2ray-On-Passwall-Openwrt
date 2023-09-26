@@ -79,20 +79,20 @@ fi
 
 ######## Temp Space Check
 
-##a=`cd /tmp && du  -m -d 0 | grep -Eo '[0-9]{1,9}'`
-##b=38
-##if [ "$a" -gt "$b" ]; then
+a=`cd /tmp && du  -m -d 0 | grep -Eo '[0-9]{1,9}'`
+b=38
+if [ "$a" -gt "$b" ]; then
 
-## echo -e "${GREEN} Temp Space : OK ${GREEN}"
-## echo -e "${NC}  ${NC}"
+ echo -e "${GREEN} Temp Space : OK ${GREEN}"
+ echo -e "${NC}  ${NC}"
     
 
-##else
+else
 
-##echo -e "${YELLOW} Not Enough Temp Space ! NEED 38MB TEMP SPACE ${YELLOW}"
-##exit 1
+echo -e "${YELLOW} TEMP SPACE NEED : 38 MB ${YELLOW}"
 
-##fi
+
+fi
 
 #####################
 
