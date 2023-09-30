@@ -28,6 +28,8 @@ if [ "$NUM" -gt "1" ]; then
 
    logger -t check_internet "PASSWALL IS OK"
 
+   exit 1
+   
 else
 
    echo "PASSWALL FAILED"
