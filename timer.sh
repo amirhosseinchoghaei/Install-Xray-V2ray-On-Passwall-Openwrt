@@ -10,6 +10,15 @@ RESULT=`ls /tmp/usr/bin/xray`
 logger -t check_internet "XRAY is OK"
 
 
+ else
+           logger -t check_internet "XRAY failed"
+
+           
+            sleep 3
+            service amir start
+
+fi
+
 
 a=`pgrep passwall`
 b=1
@@ -26,17 +35,5 @@ echo "PASSWALL IS NOT RUNNING"
 logger -t check_internet "PASSWALL IS NOT RUNNING"
 logger -t check_internet "Restarting PASSWALL"
 /etc/init.d/passwall restart
-
-fi
-
-
-
-
- else
-           logger -t check_internet "XRAY failed"
-
-           
-            sleep 3
-            service amir start
 
 fi
