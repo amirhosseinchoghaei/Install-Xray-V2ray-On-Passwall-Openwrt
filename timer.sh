@@ -20,4 +20,15 @@ logger -t check_internet "XRAY is OK"
 fi
 
 
+NUM=`pgrep passwall`
+if [[ $NUM =~ ^[0-9]+$ ]]; then
+   echo "PASSWALL OK"
+   logger -t check_internet "PASSWALL IS OK"
+else
+   echo "PASSWALL FAILED"
+   logger -t check_internet "PASSWALL NOT OK"
+   /etc/init.d/passwall restart
+fi
+
+
 
