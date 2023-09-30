@@ -20,9 +20,9 @@ logger -t check_internet "XRAY is OK"
 fi
 
 
-a=`pgrep passwall`
-b=1
-if [ "$a" -gt "$b" ]; then
+silo=`pgrep passwall`
+
+if [[ $silo =~ ^[0-9]+$ ]]; then
 
 
 echo "PASSWALL IS RUNNING"
