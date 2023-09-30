@@ -36,7 +36,7 @@ fi
            logger -t check_internet "XRAY failed"
 
            
-            sleep 10
+            sleep 3
             service amir start
 
 fi
