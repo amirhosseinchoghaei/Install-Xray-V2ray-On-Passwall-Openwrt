@@ -7,7 +7,7 @@ RESULT=`ls /tmp/usr/bin/xray`
             echo -e "${GREEN} XRAY OK ${GREEN}"
 
 
-logger -t check_internet "Internet connection is OK"
+logger -t check_internet "XRAY is OK"
 
 
 
@@ -33,7 +33,7 @@ fi
 
 
  else
-           logger -t check_internet "Internet connection failed"
+           logger -t check_internet "XRAY failed"
 
            
             sleep 10
