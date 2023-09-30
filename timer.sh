@@ -20,20 +20,4 @@ logger -t check_internet "XRAY is OK"
 fi
 
 
-silo=`pgrep passwall`
 
-if [[ $silo =~ ^[0-9]+$ ]]; then
-
-
-echo "PASSWALL IS RUNNING"
-
-logger -t check_internet "PASSWALL IS RUNNING"
-
-else
-
-echo "PASSWALL IS NOT RUNNING"
-logger -t check_internet "PASSWALL IS NOT RUNNING"
-logger -t check_internet "Restarting PASSWALL"
-/etc/init.d/passwall restart
-
-fi
