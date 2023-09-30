@@ -34,7 +34,9 @@ fi
 
  else
            logger -t check_internet "Internet connection failed"
+
            
+            sleep 10
             service amir start
 
 fi
