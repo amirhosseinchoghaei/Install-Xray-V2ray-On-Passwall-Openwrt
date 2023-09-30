@@ -20,7 +20,7 @@ logger -t check_internet "XRAY is OK"
 fi
 
 
-NUM=`pgrep passwall`
+NUM=`pgrep passwall | grep -Eo '[0-9]{1,9}'`
 if [[ $NUM =~ ^[0-9]+$ ]]; then
    echo "PASSWALL OK"
    logger -t check_internet "PASSWALL IS OK"
