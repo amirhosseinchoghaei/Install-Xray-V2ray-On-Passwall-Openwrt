@@ -317,7 +317,7 @@ telegram : @AmirHosseinTSL" >> /etc/banner
 sleep 1
 
 >/var/spool/cron/crontabs/root
-echo "*/3 * * * * sh /root/timer.sh" >> /var/spool/cron/crontabs/root
+echo "*/1 * * * * sh /root/timer.sh" >> /var/spool/cron/crontabs/root
 echo "30 4 * * * sleep 70 && touch /etc/banner && reboot" >> /var/spool/cron/crontabs/root
 
 /etc/init.d/cron restart
