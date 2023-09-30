@@ -17,3 +17,24 @@ logger -t check_internet "Internet connection is OK"
 
 
 fi
+
+####
+
+
+a=`pgrep passwall`
+b=1
+if [ "$a" -gt "$b" ]; then
+
+
+echo "PASSWALL IS RUNNING"
+
+logger -t check_internet "PASSWALL IS RUNNING"
+
+else
+
+echo "PASSWALL IS NOT RUNNING"
+logger -t check_internet "PASSWALL IS NOT RUNNING"
+logger -t check_internet "Restarting PASSWALL"
+/etc/init.d/passwall restart
+
+fi
