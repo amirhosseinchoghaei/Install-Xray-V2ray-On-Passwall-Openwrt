@@ -19,24 +19,24 @@ logger -t check_internet "XRAY is OK"
 
 fi
 
+NUM=`pgrep passwall | grep -o '[[:digit:]]*' | sed -n '1p'`
 
-NUM=`pgrep passwall | grep -Eo '[0-9]{1,9}'`
+    if [ "$NUM" -gt "2" ]; then
 
-if [ "$NUM" -gt "1" ]; then
+    echo "PASSWALL OK"
 
-   echo "PASSWALL OK"
+    logger -t check_internet "PASSWALL IS OK"
 
-   logger -t check_internet "PASSWALL IS OK"
+    exit 1
 
-   exit 1
-   
-else
+  else
 
    echo "PASSWALL FAILED"
 
    logger -t check_internet "PASSWALL NOT OK"
 
    /etc/init.d/passwall restart
+
 
 fi
 
