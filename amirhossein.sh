@@ -368,7 +368,7 @@ fi
 
 cd
 
-echo -e "${GREEN} Made With Love By : AmirHossein Choghaei ${ENDCOLOR}"
+echo -e "${GREEN} Made With Love By : AmirHossein ${ENDCOLOR}"
 
 sleep 3
 
