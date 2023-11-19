@@ -17,7 +17,7 @@ but Don't Worry i have a solution ... :)
 
 # Install Xray in one Step + IRAN TRAFFIC BYPASS:
 
-1- xray version : 1.8.4 latest update ! 
+1- xray version : 1.8.6 latest update ! 
 
 ✅ improved : -40 % lower size > luci-app-passwall = ~~980~~kb=610 kb
 ```
