@@ -4,6 +4,9 @@ Architecture : mipsel_24kc
 
 # requirement : 38MB free "Temp Space"
 
+# DO NOT INSTALL ON OPENWRT 23.05
+# Recommended Version : 22.03.5 > https://downloads.openwrt.org/releases/22.03.5/targets/
+
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
