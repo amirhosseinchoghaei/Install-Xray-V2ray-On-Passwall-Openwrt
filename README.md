@@ -10,7 +10,7 @@ Architecture : mipsel_24kc
 [![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
-install v2ray , xray-core , i'm trying to install on mi 4a gigabit :
+install v2ray , xray-core , Sing-Box , i'm trying to install on mi 4a gigabit :
 
 Hi Guys if you want to run v2ray shadowsocks on your router , First You should install openwrtOS and then install passwall Package 
 but there is a problem !!! your router disk space is just 8mb so not enough space to install xray ...
@@ -18,9 +18,32 @@ but Don't Worry i have a solution ... :)
 
 (How to install Passwall on Openwrt : https://www.youtube.com/watch?v=f4-GUnCK2Wo&t=520s&ab_channel=AmirHosseinChoghaei)
 
+Types Support :
+
+VLESS
+
+VMESS
+
+REALITY
+
+TROJAN
+
+HYSTERIA2
+
+TUC
+
+SHADOWSOCKS
+
+WIREGUARD
+
+SOCKS
+
+HTTP
+
 # Install Xray in one Step + IRAN TRAFFIC BYPASS:
 
 1- xray version : 1.8.6 latest update ! 
+sing-box version : 1.7.6 latest update ! 
 
 ✅ improved : -40 % lower size > luci-app-passwall = ~~980~~kb=610 kb
 ```
