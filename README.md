@@ -40,7 +40,7 @@ SOCKS (XRAY ✅ SING-BOX ✅)
 
 HTTP (XRAY ✅ SING-BOX ✅)
 
-# Install Xray in one Step + IRAN TRAFFIC BYPASS:
+# Install Xray or Sing-Box in one Step + IRAN TRAFFIC BYPASS:
 
 1- xray version : 1.8.6 latest update ! 
 sing-box version : 1.7.6 latest update ! 
