@@ -349,10 +349,10 @@ echo " "
            ;;
 
  *)
-           echo "  Invalid option Selected ! Try Xray Core"
-           echo "xray" >> core.txt 
-           echo ""
+           echo "  Invalid option Selected ! "
+           echo " "
            echo -e "  Press ${RED}ENTER${NC} to continue"
+           exit 0
            read -s -n 1
            ;;
       esac
