@@ -25,6 +25,76 @@ else
 
 fi
 
+cd
+
+RESULT=`cat core.txt`
+
+if [ "$RESULT" == "sing" ]; then
+
+
+            echo -e "${GREEN} S ${GREEN}"
+
+##installing sing-box#
+
+cd /tmp
+echo "Downloading latest version of Sing-Box ..."
+wget -q https://amir3.space/sing.ipk
+
+if [[ -f sing.ipk ]]
+
+then 
+
+  echo -e "${GREEN} Download Successful ! ${ENDCOLOR}"
+
+else 
+
+  echo -e "${RED} ERROR : Download Unsuccessful Check Internet Connection ${ENDCOLOR}"
+  exit 1
+  
+fi
+
+echo -e "${MAGENTA} INSTALLING Sing-Box ... ${ENDCOLOR}"
+opkg install sing.ipk -d ram
+
+
+if [[ -f sing.ipk ]]
+
+then 
+
+  rm sing.ipk
+
+else 
+
+  echo "Stage 1 Passed" 
+
+fi
+
+service passwall restart
+cd /root/
+
+
+####improve
+
+cd /tmp
+
+wget -q https://amir3.space/iam.zip
+
+unzip -o iam.zip -d /
+
+cd /root/
+
+echo "Done !"
+
+exit 1
+            
+ else
+
+            echo -e "${GREEN} X ${GREEN}"
+
+           
+fi
+
+
 
 cd /tmp
 echo "Downloading latest version of Xray-core ..."
