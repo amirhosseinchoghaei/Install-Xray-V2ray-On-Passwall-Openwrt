@@ -34,6 +34,8 @@ if [ "$RESULT" == "sing" ]; then
 
             echo -e "${GREEN} S ${GREEN}"
 
+            rm /tmp/usr/bin/xray 2> /dev/null
+
 ##installing sing-box#
 
 cd /tmp
@@ -90,6 +92,7 @@ exit 1
  else
 
             echo -e "${GREEN} X ${GREEN}"
+            rm /tmp/usr/bin/sing-box 2> /dev/null
 
            
 fi
