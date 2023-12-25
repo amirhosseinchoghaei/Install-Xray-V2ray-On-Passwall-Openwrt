@@ -283,17 +283,10 @@ RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
 
 fi
 
-RESULTTT=`grep -o /tmp/usr/bin/sing-box /etc/config/passwall`
-            if [ "$RESULTTT" == "/tmp/usr/bin/sing-box" ]; then
-            echo -e "${GREEN}Cool !${NC}"
+uci set passwall.@global_app[0].singbox_file='/tmp/usr/bin/sing-box'
 
- else
+uci commit passwall
 
-            echo -e "${YELLOW}Replacing${YELLOW}"
-            sed -i 's/usr\/bin\/sing-box/tmp\/usr\/bin\/sing-box/g' /etc/config/passwall
-
-
-fi
 
 ####improve
 
