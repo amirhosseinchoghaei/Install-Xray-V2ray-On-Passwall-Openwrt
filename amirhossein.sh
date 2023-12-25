@@ -20,10 +20,10 @@ clear
 echo "Version: $DISTRIB_RELEASE"
 
 RESULT=`echo $DISTRIB_RELEASE`
-            if [ "$RESULT" == "22.03.5" ]; then
+            if [ "$RESULT" == "23.05.0" ]; then
 
 
-            echo -e "${YELLOW} Maybe You get Some Errors on 22.03.5 ! Try 22.03.4 or less ... ${YELLOW}"
+            echo -e "${YELLOW} Maybe You get Some Errors on 23.05.0 ! Try 22.03.5 or less ... ${YELLOW}"
 
             echo -e "${NC}  ${NC}"
             
@@ -283,7 +283,17 @@ RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
 
 fi
 
+RESULTTT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
+            if [ "$RESULTTT" == "/tmp/usr/bin/sing-box" ]; then
+            echo -e "${GREEN}Cool !${NC}"
 
+ else
+
+            echo -e "${YELLOW}Replacing${YELLOW}"
+            sed -i 's/usr\/bin\/sing-box/tmp\/usr\/bin\/sing-box/g' /etc/config/passwall
+
+
+fi
 
 ####improve
 
@@ -297,7 +307,53 @@ cd /root/
 
 ########
 
+> core.txt
 
+#WithcOne#############################################
+
+echo " "
+echo -e "${YELLOW} 1.${NC} ${CYAN} Sing-box ${NC}"
+echo -e "${YELLOW} 2.${NC} ${CYAN} Xray ${NC}"
+echo -e "${YELLOW} 4.${NC} ${RED} EXIT ${NC}"
+echo ""
+
+
+echo " "
+ read -p " -Select Core Option : " choice
+
+    case $choice in
+
+1)
+
+ echo "sing" >> core.txt
+
+#read -s -n 1
+;;
+
+2)
+        
+  echo "xray" >> core.txt  
+   
+#read -s -n 1
+;;
+
+4)
+            echo ""
+            echo -e "${GREEN}Exiting...${NC}"
+            exit 0
+
+           read -s -n 1
+           ;;
+
+ *)
+           echo "  Invalid option Selected ! Try Xray Core"
+           echo "xray" >> core.txt 
+           echo ""
+           echo -e "  Press ${RED}ENTER${NC} to continue"
+           read -s -n 1
+           ;;
+      esac
+      
 
 ##EndConfig
 
