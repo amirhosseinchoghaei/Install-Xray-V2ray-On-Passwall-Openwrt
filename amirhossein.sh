@@ -283,7 +283,7 @@ RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
 
 fi
 
-RESULTTT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
+RESULTTT=`grep -o /tmp/usr/bin/sing-box /etc/config/passwall`
             if [ "$RESULTTT" == "/tmp/usr/bin/sing-box" ]; then
             echo -e "${GREEN}Cool !${NC}"
 
