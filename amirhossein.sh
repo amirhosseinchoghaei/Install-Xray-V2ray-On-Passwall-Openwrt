@@ -327,6 +327,16 @@ echo " "
 
  echo "sing" >> core.txt
 
+ opkg install ca-bundle
+
+ opkg install kmod-inet-diag
+
+ opkg install kernel
+
+ opkg install kmod-netlink-diag
+
+ opkg install kmod-tun 
+
 #read -s -n 1
 ;;
 
