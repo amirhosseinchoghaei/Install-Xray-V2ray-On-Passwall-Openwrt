@@ -9,25 +9,11 @@ GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
 
-sleep 3
-
 service passwall stop
-
-if [[ -f panel.ipk ]]
-
-then 
-
-  rm panel.ipk
-
-else 
-
-  echo "Stage 2 Passed" 
-
-fi
 
 cd
 
-RESULT=`cat core.txt`
+RESULT=`cat /root/core.txt`
 
 if [ "$RESULT" == "sing" ]; then
 
