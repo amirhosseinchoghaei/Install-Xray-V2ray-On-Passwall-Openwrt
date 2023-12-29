@@ -78,6 +78,9 @@ exit 1
  else
 
             echo -e "${GREEN} X ${GREEN}"
+
+            opkg remove sing-box
+            
             rm /tmp/usr/bin/sing-box 2> /dev/null
 
            
