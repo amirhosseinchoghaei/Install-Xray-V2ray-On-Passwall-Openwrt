@@ -301,6 +301,7 @@ cd /root/
 ########
 
 > core.txt
+> vore.txt
 
 #WithcOne#############################################
 
@@ -319,6 +320,8 @@ echo " "
 1)
 
  echo "sing" >> core.txt
+ 
+ echo "sing-box" >> vore.txt
 
  opkg install ca-bundle
 
@@ -336,7 +339,9 @@ echo " "
 2)
         
   echo "xray" >> core.txt  
-   
+
+  echo "xray" >> vore.txt
+  
 #read -s -n 1
 ;;
 
