@@ -1,17 +1,21 @@
 #!/bin/sh
 
-RESULT=`ls /tmp/usr/bin/xray`
-            if [ "$RESULT" == "/tmp/usr/bin/xray" ]; then
+cd
+
+vore=`cat /root/vore.txt`
+
+RESULT=`ls /tmp/usr/bin/$vore`
+            if [ "$RESULT" == "/tmp/usr/bin/$vore" ]; then
 
 
-            echo -e "${GREEN} XRAY OK ${GREEN}"
+            echo -e "${GREEN} CORE OK ${GREEN}"
 
 
-logger -t check_internet "XRAY is OK"
+logger -t check_internet "CORE is OK"
 
 
  else
-           logger -t check_internet "XRAY failed"
+           logger -t check_internet "CORE failed"
 
            
             sleep 3
