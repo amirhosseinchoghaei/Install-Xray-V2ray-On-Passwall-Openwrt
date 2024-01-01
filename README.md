@@ -1,6 +1,8 @@
 #install_v2ray_xray_on_openwrt
 Architecture : mipsel_24kc 
 
+[![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 # requirement : 38MB free "Temp Space"
 
@@ -11,8 +13,6 @@ Architecture : mipsel_24kc
 * [Xiaomi 4a Gigabit openwrt 22.03.3 Recommended](https://archive.openwrt.org/releases/22.03.3/targets/ramips/mt7621/openwrt-22.03.3-ramips-mt7621-xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin)
 
 * when you want downgrade openwrt please Uncheck ( Keep setting ) . it's for clear installation .
-
-[![visitor badge](https://img.shields.io/badge/Chat%20on-Telegram-blue.svg)](https://t.me/AmirHosseinTSL) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 install v2ray , xray-core , Sing-Box , i'm trying to install on mi 4a gigabit :
