@@ -437,5 +437,5 @@ echo -e "${GREEN} Made With Love By : AmirHossein ${ENDCOLOR}"
 sleep 3
 
 
-rm amirhossein.sh
+rm amirhossein.sh 2> /dev/null
 
