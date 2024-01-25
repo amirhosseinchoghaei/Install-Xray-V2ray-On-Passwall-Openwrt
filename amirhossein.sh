@@ -269,25 +269,6 @@ cd /root/
 echo -e "${GREEN} almost done ... ${ENDCOLOR}"
 
 
-##Config
-
-RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
-            if [ "$RESULT" == "/tmp/usr/bin/xray" ]; then
-            echo -e "${GREEN}Cool !${NC}"
-
- else
-
-            echo -e "${YELLOW}Replacing${YELLOW}"
-            sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
-
-
-fi
-
-uci set passwall.@global_app[0].singbox_file='/tmp/usr/bin/sing-box'
-
-uci commit passwall
-
-
 ####improve
 
 cd /tmp
@@ -322,6 +303,8 @@ echo " "
  echo "sing" >> core.txt
  
  echo "sing-box" >> vore.txt
+ 
+ opkg update
 
  opkg install ca-bundle
 
@@ -333,6 +316,10 @@ echo " "
 
  opkg install kmod-tun 
 
+ uci set passwall.@global_app[0].singbox_file='/tmp/usr/bin/sing-box'
+
+ uci commit passwall
+
 #read -s -n 1
 ;;
 
@@ -341,6 +328,21 @@ echo " "
   echo "xray" >> core.txt  
 
   echo "xray" >> vore.txt
+
+  ##Config
+
+RESULT=`grep -o /tmp/usr/bin/xray /etc/config/passwall`
+            if [ "$RESULT" == "/tmp/usr/bin/xray" ]; then
+            echo -e "${GREEN}Cool !${NC}"
+
+ else
+
+            echo -e "${YELLOW}Replacing${YELLOW}"
+            sed -i 's/usr\/bin\/xray/tmp\/usr\/bin\/xray/g' /etc/config/passwall
+
+
+fi
+
   
 #read -s -n 1
 ;;
