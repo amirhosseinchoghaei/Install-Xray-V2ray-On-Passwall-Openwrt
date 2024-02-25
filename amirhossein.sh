@@ -402,7 +402,9 @@ uci set system.@system[0].hostname=By-AmirHossein
 
 uci commit system
 
-dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir' 'my.irancell.ir'
+uci set dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir 
+my.irancell.ir'
+
 
 uci commit dhcp
 
