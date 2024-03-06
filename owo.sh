@@ -9,7 +9,9 @@ GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
 
-service passwall stop
+service passwall stop >/dev/null 2>&1
+
+service passwall2 stop >/dev/null 2>&1
 
 cd
 
@@ -57,7 +59,10 @@ else
 
 fi
 
-service passwall restart
+service passwall restart >/dev/null 2>&1
+
+service passwall2 restart >/dev/null 2>&1
+
 cd /root/
 
 
@@ -121,7 +126,10 @@ else
 
 fi
 
-service passwall restart
+service passwall restart >/dev/null 2>&1
+
+service passwall2 restart >/dev/null 2>&1
+
 cd /root/
 
 
