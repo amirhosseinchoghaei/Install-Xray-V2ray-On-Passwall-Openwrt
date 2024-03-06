@@ -405,8 +405,11 @@ uci commit system
 uci set dhcp.@dnsmasq[0].rebind_domain='www.ebanksepah.ir 
 my.irancell.ir'
 
+uci set passwall2.@global_app[0].xray_file='/tmp/usr/bin/xray' >/dev/null 2>&1
 
 uci commit dhcp
+
+uci commit
 
 /sbin/reload_config
 
