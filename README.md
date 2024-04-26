@@ -47,10 +47,9 @@ HTTP (XRAY ✅ SING-BOX ✅)
 
 # Install Xray or Sing-Box in one Step + IRAN TRAFFIC BYPASS:
 
-1- xray version : 1.8.10 latest update ! 
-sing-box version : 1.7.6 recommended version ! 
+1- xray version : 1.8.11 latest update ! 
+sing-box version : 1.8.11 recommended version ! 
 
-✅ improved : -40 % lower size > luci-app-passwall = ~~980~~kb=610 kb
 ```
 rm -f amirhossein.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/mi4agigabit/main/amirhossein.sh && chmod 777 amirhossein.sh && sh amirhossein.sh
 ```
